@@ -16,6 +16,7 @@ import { NewAccountComponent } from './new-account/new-account.component';
     BrowserModule,
     FormsModule
   ],
+  // providers: [AccountsService, LoggingService], // With Angular 6+ application-wide services can be provided by passing an argument to the @Injectable decorator at the service class level ({ providedIn: 'root' })
   providers: [],
   bootstrap: [AppComponent]
 })
